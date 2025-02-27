@@ -6,7 +6,6 @@ LOGIN_BODY = {
     "password": ""   # Será preenchido dinamicamente
 }
 
-# Corpo da requisição para o endpoint findAllProductsCustom
 FIND_ALL_PRODUCTS_CUSTOM_BODY = {
     "webstore_id": "0ZEKj000000ox4zOAA",
     "account_id": "001Db000017ietDIAQ",
@@ -17,4 +16,26 @@ FIND_ALL_PRODUCTS_CUSTOM_BODY = {
     "category_id": "0ZGDb0000004uqxOAA",
     "sort_rule_id": "",
     "fifo_filters": ["Verde", "Vermelho"]
+}
+
+FIND_CREDIT_LIMIT_BODY = {  
+    "account_id": "001Db000017ietDIAQ"
+}
+
+FIND_DELIVERY_WINDOW_BODY = {
+    "account_id": "001Db000017bpCgIAI",
+    "has_fifo": False
+}
+
+FIND_PAYMENTS_CONDITIONS_BODY = {
+    "account_id": "001Db000017ietDIAQ"
+}
+
+FIND_PRODUCTS_FIFO = {
+    "account_id": "001Db000017ietDIAQ",
+    "webstore_id": "0ZEKj000000ox4zOAA",
+    "skus": [],
+    "categories": [],
+    "brands": [],
+    "types": []
 }
